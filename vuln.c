@@ -7,9 +7,8 @@ int main(int argc,char *argv[])
 		printf("syntax error\r\n");
 		printf("must supply at least one argument\r\n");
 		return(1);
-	{
+	}
 	strcopy(buf,argv[1]); 
 	return (0);       
-}
-}
+
 }
